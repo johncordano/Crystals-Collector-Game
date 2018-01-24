@@ -4,10 +4,11 @@
 	<title>CrystalsCollector Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 </head>
-<body>
+<body id="pattern">
 
 <div id="Game-Title">
 	CrystalsCollector!
@@ -28,17 +29,20 @@
 </div>
 
 <div id="Computer-Number">
-	test
+	
 </div>
 
 <div id="Wins-Losses">
-	Wins:
-	<br><br>
-	Losses:
+	<br>
+	<h2>Wins:</h2>
+	<div id=Wins></div>
+	<br>
+	<h2>Losses:</h2>
+	<div id=Losses></div>
 </div>
 
 <div id="crystalarea">
-	<image src="assets/images/redcrystal.jpg" id="crystals">
+	<button id="firstButton"><image src="assets/images/redcrystal.jpg" id="crystals"></button>
 	<image src="assets/images/bluecrystal.jpg" id="crystals">
 	<image src="assets/images/yellowcrystal.jpg" id="crystals">
 	<image src="assets/images/greencrystal.jpg" id="crystals">
@@ -49,6 +53,8 @@
 </div>
 
 <div id="score">
+
+
 
 </div>
 	

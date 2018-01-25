@@ -10,54 +10,44 @@
 </head>
 <body id="pattern">
 
-<div id="Game-Title">
-	CrystalsCollector!
-</div>
+<div id="Game-Title">CrystalsCollector!</div>
 
 <div id="Game-Directions">
-	You will be given a random number at the start of the game.
+	You are given a random number at the start of the game.
 	<br><br>
-	There are 4 crystals below. By clicking on a crystal, you will add a specifc amount of points to your total score.
+	There are 4 crystals below. By clicking on a crystal, you add a specifc amount of points to your total score.
 	<br><br>
-	You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.
+	You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
 	<br><br>
 	The value of each crystal is hidden from you until you click on it.
 	<br><br>
-	Each time the game starts, the game will change the values of each crystal.
+	Each time the game starts, the values of each crystal are changed.
 	<br><br>
 	<br><br>
 </div>
 
-<div id="Computer-Number">
-	
-</div>
+<div id="Computer-Number"></div>
 
 <div id="Wins-Losses">
-	<br>
 	<h2>Wins:</h2>
 	<div id=Wins></div>
 	<br>
 	<h2>Losses:</h2>
 	<div id=Losses></div>
+	<br>
+	<h2 id=message></h2>
 </div>
 
 <div id="crystalarea">
-	<button id="firstButton"><image src="assets/images/redcrystal.jpg" id="crystals"></button>
-	<image src="assets/images/bluecrystal.jpg" id="crystals">
-	<image src="assets/images/yellowcrystal.jpg" id="crystals">
-	<image src="assets/images/greencrystal.jpg" id="crystals">
+	<button class="buttonCrystals" id="firstButton"><image src="assets/images/redcrystal.jpg" id="crystals"></button>
+	<button class="buttonCrystals" id="secondButton"><image src="assets/images/bluecrystal.jpg" id="crystals"></button>
+	<button class="buttonCrystals" id="thirdButton"><image src="assets/images/yellowcrystal.jpg" id="crystals"></button>
+	<button class="buttonCrystals" id="fourthButton"><image src="assets/images/greencrystal.jpg" id="crystals"></button>
 </div>
 
-<div id="scoretext">
-	Your total score is:
-</div>
+<div id="scoretext">Your total score is:</div>
 
-<div id="score">
-
-
-
-</div>
+<div id="score"></div>
 	
-
 </body>
 </html>

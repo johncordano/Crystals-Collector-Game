@@ -1,4 +1,8 @@
 
+#pattern {
+	background-image: url(../images/bodybackground.jpg);
+}
+
 #Game-Title {
 	font-size: 30px;
 	background-color: #e65c00;
@@ -40,7 +44,6 @@ h2 {
 	Float: left;
 }
 
-
 #crystalarea {
 	clear: both;
 	height: 60px;
@@ -54,9 +57,16 @@ h2 {
 	background-color: white;
 }
 
+button {
+	cursor: pointer;
+}
+
 #scoretext {
 	background-color: green;
-	margin: 5px;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 	width: 200px;
 	height: 20px;
 	color: white;
@@ -73,10 +83,5 @@ h2 {
 }
 
 
-#pattern {
-	background-image: url(../images/bodybackground.jpg);
-}
 
-button {
-	cursor: pointer;
-}
+

@@ -5,7 +5,7 @@ The number of game wins and losses is tallied and displayed on the screen. Each 
 
 The following image shows the application:
 
-![train image](assets/images/crystals-game.png)
+![crystals image](assets/images/crystals-game.png)
 
 # Tools Used
 

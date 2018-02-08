@@ -3,7 +3,11 @@ In this interactive game for web browswers, users click the four crytstal icons 
 
 The number of game wins and losses is tallied and displayed on the screen. Each time a new game starts, a new random number is generated, and the crystal icons are assigned new points.
 
-Tools Used
+The following image shows the application:
+
+![train image](assets/images/crystals-game.png)
+
+# Tools Used
 
 - html and css
 - jQuery
